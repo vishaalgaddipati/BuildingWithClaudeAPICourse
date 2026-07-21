@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that validates an AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, hyphens, must start and end with letter or number)"
+  },
+  {
+    "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM role with a trust relationship allowing EC2 instances to assume it"
+  },
+  {
+    "task": "Write a regular expression that matches valid AWS ARN (Amazon Resource Name) formats, such as arn:aws:service:region:account-id:resource"
+  }
+]
