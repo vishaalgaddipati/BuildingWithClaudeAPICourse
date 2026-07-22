@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a regular expression to extract AWS S3 bucket names from S3 URIs in the format s3://bucket-name/key/path"
+    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., s3://my-bucket/path/to/file.txt) and extract just the bucket name",
+    "format": "regex"
   },
   {
-    "task": "Create a Python function that parses an AWS IAM policy JSON document and returns a list of all allowed actions"
+    "task": "Write a Python function that takes an AWS IAM policy JSON string and returns True if it contains a wildcard (*) in the Resource field",
+    "format": "python"
   },
   {
-    "task": "Write a JSON CloudFormation template snippet that defines an S3 bucket with versioning enabled and public access blocked"
+    "task": "Create a JSON CloudFormation template snippet that defines an AWS Lambda execution role with basic permissions",
+    "format": "json"
   }
 ]
