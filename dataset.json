@@ -1,14 +1,17 @@
 [
   {
-    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., s3://my-bucket/path/to/file.txt) and extract just the bucket name",
-    "format": "regex"
+    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and extract only the bucket name",
+    "format": "regex",
+    "solution_criteria": "The regex should correctly extract bucket names from S3 URIs, handling various valid bucket name formats (lowercase letters, numbers, hyphens) and return only the bucket name without the protocol or path"
   },
   {
-    "task": "Write a Python function that takes an AWS IAM policy JSON string and returns True if it contains a wildcard (*) in the Resource field",
-    "format": "python"
+    "task": "Create a JSON configuration object for an AWS Lambda function that specifies the function name, runtime (Python 3.11), memory (512 MB), timeout (60 seconds), and environment variables for AWS region and log level",
+    "format": "json",
+    "solution_criteria": "The JSON object should be properly formatted with correct key-value pairs, include all specified parameters, use valid AWS Lambda configuration structure, and have appropriate data types (string for name/region, integer for memory/timeout)"
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an AWS Lambda execution role with basic permissions",
-    "format": "json"
+    "task": "Write a Python function that takes an AWS IAM ARN string (e.g., 'arn:aws:iam::123456789012:user/john-doe') and returns a dictionary with the account ID and the resource name (username)",
+    "format": "python",
+    "solution_criteria": "The function should correctly parse ARN strings by splitting on colons and colons, extract the account ID (12-digit number) and resource name (text after last slash), handle various IAM ARN formats, and return a properly structured dictionary with 'account_id' and 'resource_name' keys"
   }
 ]
