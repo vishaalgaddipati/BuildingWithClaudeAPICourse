@@ -1,0 +1,18 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Prepare for marathon race day with high carbohydrate intake and strategic nutrition timing around a 2-hour training run",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meal periods (breakfast, lunch, dinner) plus pre-workout, during-workout, and post-workout nutrition",
+      "Total daily carbohydrate intake is appropriate for endurance athlete (approximately 8-10g per kg body weight)",
+      "Pre-workout meal is timed 2-3 hours before training; post-workout recovery meal includes carbohydrates and protein within 30-60 minutes",
+      "All meals and snacks respect vegetarian diet and exclude nuts"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions, including pre-workout, during-workout, and post-workout nutrition strategies"
+  }
+]
