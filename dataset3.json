@@ -1,0 +1,14 @@
+[
+  {
+    "prompt_inputs": {
+      "content": "Recent advances in neuroscience have illuminated the neural correlates of consciousness, particularly through studies of the default mode network and its role in self-referential processing. These findings intersect with philosophical inquiries into the hard problem of consciousness and the explanatory gap between physical brain states and subjective experience. Psychologically, this research informs our understanding of metacognition and introspective awareness, demonstrating how individuals monitor their own cognitive processes through prefrontal cortex activation. The integration of neuroimaging data with phenomenological analysis reveals that conscious awareness involves coordinated activity across multiple brain regions, challenging reductionist approaches to mind and suggesting that consciousness emerges from complex network interactions rather than localized neural activity."
+    },
+    "solution_criteria": [
+      "Extracts all domain-specific topics across neuroscience, psychology, and philosophy without omission",
+      "Distinguishes between related but distinct concepts (e.g., consciousness, metacognition, self-referential processing as separate topics)",
+      "Returns output as a valid JSON array of strings"
+    ],
+    "task_description": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+    "scenario": "Testing with a passage containing interdisciplinary topics (neuroscience + psychology + philosophy) to verify the prompt can identify and distinguish between multiple domain-specific concepts and their relationships"
+  }
+]
