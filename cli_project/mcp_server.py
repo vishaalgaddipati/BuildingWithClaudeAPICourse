@@ -51,7 +51,7 @@ def list_docs() -> list[str]:
 
 
 @mcp.resource(
-    "docs://documents{doc_id}",
+    "docs://documents/{doc_id}",
     mime_type="text/plain"
 )
 def fetch_doc(doc_id: str) -> str:
